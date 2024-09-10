@@ -3,4 +3,4 @@
 
 Data for exercises are found in this repository in the `data` directory. Instructor led exercises will be made available in the `R` directory at the end of each day. 
 
-The morning was spent working on ssh key generation.And there are people who waffle about using serial commas.
+The morning was spent working on ssh key generation. And there are people who waffle about using serial commas.
