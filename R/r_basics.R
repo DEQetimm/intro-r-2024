@@ -86,6 +86,31 @@ x <- my_var # helps reader follow assignment direction
 
 # data structures ----
 # vectors have a single dimension, like a column or row of data
+# vectors of volumes (typically a column)
+# R will flip numbers to characters if there is one row of characters in the column
+
+a <- c("1", "2", "3") # c() stands for collect (what's inside)
+a
+a <- c(1, 2 ,3)
+a
+a + 1
+
+a <- c(1, 2, 3, "4")
+a
+typeof(a) # R will auto-type to the form that "works"
+a + 1
+
+a <- c(1, 2 ,3)
+a < 3
+
+any(a < 3) # tests whether any comparison  TRUE
+all(a < 3) # tests whether all comparisons TRUE
+
+3 %in% a # testing member in a vector
+4 %not in% a # doesn't work as a negation
+!4 %in% a # this works, "4 is not in a"; ! negates the statement
+
+
 
 # data frames - the key structure for data science, multi-dimensional
 #   collections of vectors
