@@ -111,9 +111,21 @@ all(a < 3) # tests whether all comparisons TRUE
 !4 %in% a # this works, "4 is not in a"; ! negates the statement
 
 
-
 # data frames - the key structure for data science, multi-dimensional
 #   collections of vectors
+df <- data.frame(a = c(1, 2, 3),
+                 b = c("joe", "tammy", "matt")) # collection of vectors
+
+df
+
+df$a # references a single column
+df$b
+df
+
+df$mode <- c("bike", "car", "bus") # adding a column
+df
+summary(df) #gives summary of data by column
+
 
 
 # Special type: factors, and putting it all together ----
