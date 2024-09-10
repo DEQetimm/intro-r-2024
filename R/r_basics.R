@@ -63,6 +63,25 @@ identical(42, "42") # type matters for identity
 
 
 # variables ----
+# tips: use only lower case, follow suggestions below (no periods in names)
+
+x <- "this is string" # in R, read as assigning the string to variable x
+x
+x
+typeof(x)
+x <- 10 # assigning a variable to something
+x ^ 2 # always refers to the assigned value; in this case, to the power of
+
+x <- 'pizza'
+pizza <- "x" # variable names can be most anything
+pizza
+# my var <- 42 # not everything though
+my_var <- 42 # that's better
+# my_var = 42 # works, but not standard in R
+# my_var.pdx <- 42 # works, but don't do it as it confuses things
+x <- my_var # helps reader follow assignment direction
+
+
 
 
 # data structures ----
